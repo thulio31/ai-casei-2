@@ -116,7 +116,7 @@ export default{
     background-repeat: no-repeat ; 
   /*    border-radius:20px ;
     border: 1px solid #2020164d;
-    margin-right: 30px;
+    margin-right: 30px;  
     margin-top: 40px;*/
 }
 </style>
