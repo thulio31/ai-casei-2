@@ -13,17 +13,17 @@
                     <RouterLink to="Noivos"><li>Noivos</li></RouterLink>
                     <RouterLink to="Servicos"><li>Serviços</li></RouterLink>
                     <RouterLink to="LuaDeMel"><li>Lua de mel</li></RouterLink>
-                </ul>
-                <div class="auth-buttons">
+                    
+                <div class="auth-buttons" style="display: flex; margin-left: 0%">
                     <template v-if="isAuthenticated">
-                        <RouterLink to="/profile" class="btn btn-login">Meu Perfil</RouterLink>
-                        <button @click="handleLogout" class="btn btn-logout">Sair</button>
+                        <RouterLink to="/profile" class="btn btn-login"><li>Meu Perfil</li></RouterLink>
+                        <button @click="handleLogout" class="btn btn-logout"><li>Sair</li></button>
                     </template>
                     <template v-else>
-                        <RouterLink to="/login" class="btn btn-login">Entrar</RouterLink>
-                        <RouterLink to="/register" class="btn btn-register">Cadastrar</RouterLink>
+                        <RouterLink to="/login" class="btn btn-login"><li>Entrar</li></RouterLink>
+                        <RouterLink to="/register" class="btn btn-register"><li>Cadastrar</li></RouterLink>
                     </template>
-                </div>
+                </div></ul>
             </nav>
         </div>
     </div>
@@ -47,47 +47,14 @@ export default {
 };
 </script>
 
-<style scoped>
-/* Seu CSS permanece o mesmo */
-</style>
+
 
 
 <style scoped>
-
-
-.auth-buttons {
-    display: flex;
-    gap: 10px;
-    margin-left: 500px;
+#nav{
+    width: 100%;
 }
 
-.auth-buttons .btn {
-    text-decoration: none;
-    padding: 8px 15px;
-    border: 1px solid #df2626;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #df2626;
-    transition: background-color 0.3s, color 0.3s;
-}
 
-.auth-buttons .btn-login {
-    background-color: transparent;
-}
-
-.auth-buttons .btn-register {
-    background-color: #df2626;
-    color: white;
-}
-
-.auth-buttons .btn:hover {
-    background-color: #df2626;
-    color: white;
-}
-
-.auth-buttons .btn-register:hover {
-    background-color: white;
-    color: #df2626;
-}
 </style>
 

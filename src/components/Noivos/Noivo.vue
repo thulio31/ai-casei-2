@@ -1,41 +1,29 @@
 <template>
     <div>
-        <div class="container">
-            <div class="content">
-                <div class="card">
-                    <h2>Loja de Noivas</h2>
-                    <p>Pesquise no catálogo mais amplo e completo de lojas e ateliers para escolher o vestido tão sonhado do seu casamento.
-                    </p>
-                    <a href="https://www.closetdamay.com.br"><button class="btn-default">Ver lojas</button></a>
-                </div>
-            </div>
-            <div class="img">
-
-            </div>
-        </div>   
+        
 
         <div class="title">
-            <h2>Descubra os melhores profissionais de moda e beleza</h2>
+            <h2>Descubra os melhores profissionais </h2>
         </div>
         <div class="conteiner-list">
             <div class="card-list">
                 <div class="img-list1">
 
                 </div>
-                <a href="https://www.constancezahn.com"  target="_blank"><h4>Atelier Noiva</h4></a>
-                <p>3 Fornecedores</p>
+                <a href="https://www.drterno.com.br/"  target="_blank"><h4>Terno Noivo</h4></a>
+                <p>12 Fornecedores</p>
             </div>
             <div class="card-list">
                 <div class="img-list2">
 
                 </div>
-                <a href="https://www.docenoivas.com.br" target="_blank"><h4>Lojas de Noivas</h4></a>
-                <p>5 Fornecedores</p>
+                <a href="https://www.lamafiabarbearia.com.br/" target="_blank"><h4>Barbearia de Noivos</h4></a>
+                <p>21 Fornecedores</p>
             </div><div class="card-list">
                 <div class="img-list3">
 
                 </div>
-                <a href="https://boutiquedanoiva.com.br" target="_blank"><h4>Acessorios Noivas</h4></a>
+                <a href="https://www.trendhim.pt/" target="_blank"><h4>Acessorios Noivos</h4></a>
                 <p>8 Fornecedores</p>
             </div>
             <div class="card-list">
@@ -49,58 +37,72 @@
                 <div class="img-list5">
 
                 </div>
-                <a href="https://www.anavioletavestidodefesta.com.br" target="_blank"><h4>Roupas para Festas</h4></a>
-                <p>9 Fornecedores</p>
+                <a href="https://blog.casar.com/roupa-de-noivo" target="_blank"><h4>Roupas para Festas</h4></a>
+                <p>6 Fornecedores</p>
             </div>
             
         </div>
 
+        <div class="container">
+            <div class="content">
+                <div class="card">
+                    <h2>Loja de Noivos</h2>
+                    <p>Pesquise no catálogo mais amplo e completo de lojas e acessorios para escolher o terno tão sonhado do seu casamento.
+                    </p>
+                    <a href="https://www.rechiastore.com.br/" target="_blank" ><button class="btn-default">Ver lojas</button></a>
+                </div>
+            </div>
+            <div class="img">
+
+            </div>
+        </div>   
+
         <div class="container-card">
             <div class="card">
                 <div class="img-card">
-                    <img src="/img/noiva-p1.jpg" alt="">
+                    <img src="/img/noivo2.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>Noiva Deluxe</h3>
+                    <h3>Estilo e Classe</h3>
                     <h4><i class="fa-solid fa-star" style="color: #e2b212;"></i> 4.9</h4>
-                    <h4><i class="fa-solid fa-coins"></i> A partir de R$ 450,00</h4> <br>
-                    <a href="/noiva1">Ver Pacote</a>
+                    <h4><i class="fa-solid fa-coins"></i> A partir de R$ 380,00</h4> <br>
+                    <a href="/noivo1">Ver Pacote</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="img-card">
-                    <img src="/img/noiva-p2.jpg" alt="">
+                    <img src="/img/noivo4.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>Belle Éternelle</h3>
-                    <h4><i class="fa-solid fa-star" style="color: #e2b212;"></i> 4.7</h4>
-                    <h4><i class="fa-solid fa-coins"></i> A partir de R$ 350,00</h4> <br>
-                    <a href="/noiva2">Ver Pacote</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="img-card">
-                    <img src="/img/noiva-p3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Lumière Noivas</h3>
-                    <h4><i class="fa-solid fa-star" style="color: #e2b212;"></i> 5.0</h4>
-                    <h4><i class="fa-solid fa-coins"></i> A partir de R$ 390,00</h4> <br>
-                    <a href="/noiva3">Ver Pacote</a>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="img-card">
-                    <img src="/img/noiva-p4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>Aurora Bridal</h3>
+                    <h3>Noivo Premium</h3>
                     <h4><i class="fa-solid fa-star" style="color: #e2b212;"></i> 4.8</h4>
+                    <h4><i class="fa-solid fa-coins"></i> A partir de R$ 370,00</h4> <br>
+                    <a href="/noivo2">Ver Pacote</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-card">
+                    <img src="/img/noivo3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Noivo Real</h3>
+                    <h4><i class="fa-solid fa-star" style="color: #e2b212;"></i> 4.7</h4>
+                    <h4><i class="fa-solid fa-coins"></i> A partir de R$ 340,00</h4> <br>
+                    <a href="/noivo3">Ver Pacote</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img-card">
+                    <img src="/img/noivo1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Elegância do Noivo</h3>
+                    <h4><i class="fa-solid fa-star" style="color: #e2b212;"></i> 4.6</h4>
                     <h4><i class="fa-solid fa-coins"></i> A partir de R$ 320,00</h4> <br>
-                    <a href="/noiva4">Ver Pacote</a>
+                    <a href="/noivo4">Ver Pacote</a>
                 </div>
             </div>
 
@@ -109,14 +111,16 @@
 
         <div class="informacao">
             <div class="info">
-                <h2>Vestidos de noiva para todos os estilos</h2>
-                <p>No "Ai Casei", oferecemos uma curadoria impecável de vestidos para todos os gostos e personalidades. Do clássico ao moderno, você encontrará o modelo perfeito para brilhar no seu grande dia.</p>
+                <p>A Página de Noivo do Ai Casei foi desenvolvida para garantir que o noivo também tenha uma experiência inesquecível no dia do casamento. Pensando em todos os detalhes, reunimos uma seleção de serviços exclusivos que garantem conforto, elegância e praticidade, permitindo que ele esteja impecável e relaxado para o grande momento.
+                </p>
 
-                <h2>Inspirações que encantam</h2>
-                <p>Sabemos que cada noiva é única, e nosso site está repleto de tendências, dicas e ideias para tornar sua cerimônia inesquecível. Seja para decoração, maquiagem ou penteado, temos tudo para ajudá-la a sonhar e realizar.</p>
+                <h2>Dia do Noivo</h2>
+                <p>A preparação do noivo também é um momento importante, e no Ai Casei pensamos em tudo para que ele se sinta relaxado e confortável. Com pacotes exclusivos de barbearia premium, ele poderá contar com cortes de cabelo modernos ou clássicos, cuidados com a barba e tratamentos de pele. Para um momento de relaxamento, oferecemos também spas masculinos com massagens e cuidados especiais, permitindo que o noivo desfrute de um descanso merecido antes de seu grande momento. 
+                </p>
 
-                <h2> Organização prática e eficiente</h2>
-                <p>Planejar um casamento pode ser desafiador, mas o "Ai Casei" simplifica tudo para você. Oferecemos ferramentas que ajudam noivas a organizar cada detalhe, desde a escolha do vestido até a lista de convidados.</p>
+                <h2> Experiências Pré-Casamento</h2>
+                <p>Antes do casamento, o noivo também merece momentos de descontração. Oferecemos experiências pré-casamento, como degustações de bebidas premium, onde ele pode explorar diferentes opções de whiskies, vinhos ou cervejas artesanais com seus amigos.
+                </p>
             </div>
         </div>
 
@@ -127,7 +131,7 @@
 
 <script>
 export default{
-    name: 'Noiva'
+    name: 'Noivo'
 }
 </script>
 
@@ -186,7 +190,7 @@ export default{
     transition: 0.4s;
 }
 .conteiner-list .img-list1{
-    background-image: url('public/img/Atelier.jpg');
+    background-image: url('public/img/terno.jpg');
     background-size: cover;
     background-repeat: no-repeat ;
     width: 220px;
@@ -224,7 +228,7 @@ export default{
     transition: 0.6s;
 }
 .conteiner-list .img-list2{
-    background-image: url('public/img/lojanoiva.jpg');
+    background-image: url('public/img/barber.jpg');
     background-size: cover;
     background-repeat: no-repeat ;
     width: 220px;
@@ -238,7 +242,7 @@ export default{
 }
 
 .conteiner-list .img-list3{
-    background-image: url('public/img/acessorio.jpg');
+    background-image: url('public/img/acessorio2.jpg');
     background-size: cover;
     background-repeat: no-repeat ;
     width: 220px;
@@ -252,7 +256,7 @@ export default{
 }
 
 .conteiner-list .img-list4{
-    background-image: url('public/img/aliança.jpg');
+    background-image: url('public/img/aliança2.jpg');
     background-size: cover;
     background-repeat: no-repeat ;
     width: 220px;
@@ -266,7 +270,7 @@ export default{
 }
 
 .conteiner-list .img-list5{
-    background-image: url('public/img/roupa.jpg');
+    background-image: url('public/img/roupa2.jpg');
     background-size: cover;
     background-repeat: no-repeat ;
     width: 220px;
@@ -380,8 +384,7 @@ height: 200px;
     z-index: 10;
     position: absolute;
     transform: translateY(40%);    
-    border-radius:20px ;
-    border: 1px solid #2020164d;    
+    border-radius:20px ;    
     box-shadow: rgba(0, 0, 0, 0.24) 4px 7px 8px;
 }
 
@@ -401,10 +404,11 @@ height: 200px;
 .container .img{
     width: 56%;
     height: 330px;
-    background-image: url('/public/img/noiva1.jpg') ;
+    background-image: url('/public/img/noivo.jpg') ;
     background-size: cover;
     background-repeat: no-repeat ;
     border-radius:20px ;
+    border: 1px solid #2020164d;
     margin-right: 30px;
     margin-top: 40px;    
     box-shadow: rgba(0, 0, 0, 0.24) 4px 7px 8px;

@@ -21,6 +21,13 @@ import Giethoorn from '@/components/Lua/Giethoorn.vue'
 import Zermatt from '@/components/Lua/Zermatt.vue'
 import BoraBora from '@/components/Lua/Bora-Bora.vue'
 import Noiva from '@/components/Noivos/Noiva.vue'
+import Noiva1 from '@/components/Noivos/Noiva1.vue'
+import Noiva2 from '@/components/Noivos/Noiva2.vue'
+import Noivo from '@/components/Noivos/Noivo.vue'
+import Noivo1 from '@/components/Noivos/Noivo1.vue'
+import Noivo2 from '@/components/Noivos/Noivo2.vue'
+import buffets from '@/components/Servico/buffets.vue'
+import buffet1 from '@/components/Servico/buffet1.vue'
 
 
 const router = createRouter({
@@ -167,6 +174,42 @@ const router = createRouter({
       path: '/Noiva',
       name: 'Noiva',
       component: Noiva,
+    },
+    {
+      path: '/Noiva1',
+      name: 'Noiva1',
+      component: Noiva1,
+    },
+
+    {
+      path: '/Noiva2',
+      name: 'Noiva2',
+      component: Noiva2,
+    },
+    {
+      path: '/Noivo',
+      name: 'Noivo',
+      component: Noivo,
+    },
+    {
+      path: '/Noivo1',
+      name: 'Noivo1',
+      component: Noivo1,
+    },
+    {
+      path: '/Noivo2',
+      name: 'Noivo2',
+      component: Noivo2,
+    },
+    {
+      path: '/buffets',
+      name: 'buffets',
+      component: buffets,
+    },
+    {
+      path: '/buffet1',
+      name: 'buffet1',
+      component: buffet1,
     }
   ],
 })
