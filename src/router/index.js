@@ -20,6 +20,7 @@ import KohSamui from '@/components/Lua/KohSamui.vue'
 import Giethoorn from '@/components/Lua/Giethoorn.vue'
 import Zermatt from '@/components/Lua/Zermatt.vue'
 import BoraBora from '@/components/Lua/Bora-Bora.vue'
+import Noiva from '@/components/Noivos/Noiva.vue'
 
 
 const router = createRouter({
@@ -161,6 +162,11 @@ const router = createRouter({
       path: '/Bora-Bora',
       name: 'Bora-Bora',
       component: BoraBora,
+    },
+    {
+      path: '/Noiva',
+      name: 'Noiva',
+      component: Noiva,
     }
   ],
 })

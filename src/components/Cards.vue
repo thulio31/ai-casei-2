@@ -14,7 +14,7 @@
             </div>
             <div class="card">
                 <div class="img-card">
-                    <img src="/img/lugar1.jpg" alt="">
+                    <!-- <img src="/img/lugar1.jpg" alt=""> -->
                 </div>
                 <div class="content">
                     <h3>Lugares</h3>
@@ -25,7 +25,7 @@
             </div>
             <div class="card">
                 <div class="img-card">
-                    <img src="/img/FotoPaulo3.jpg" alt="">
+                    <!-- <img src="/img/FotoPaulo3.jpg" alt=""> -->
                 </div>
                 <div class="content">
                     <h3>Noivos</h3>
@@ -38,7 +38,7 @@
             </div>
             <div class="card">
                 <div class="img-card">
-                    <img src="/img/Lua1.jpg" alt="">
+                    <!-- <img src="/img/Lua1.jpg" alt=""> -->
                 </div>
                 <div class="content">
                     <h3>Luas de Mel</h3>

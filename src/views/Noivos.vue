@@ -5,7 +5,7 @@
   </template>
   
   <script>
-import CardNoivos from '@/components/CardNoivos.vue';
+  import CardNoivos from '@/components/Noivos/CardNoivos.vue';
 
   export default{
     name: 'Noivos',
